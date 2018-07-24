@@ -12,7 +12,7 @@ class TestIntegrations(unittest.TestCase):
 
     def test_thing(self):
         response = self.app.get('/')
-        self.assertEqual(response.get_data(), b'My name is Nitesh')
+        self.assertEqual(response.get_data(), b'My name is Nit')
 
 if __name__ == "__main__":
      unittest.main()
